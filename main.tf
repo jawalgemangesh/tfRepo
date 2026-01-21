@@ -9,7 +9,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1a"
+  region = "us-east-1"
 }
 data "aws_vpc" "default" { // Fetch default VPC
   default = true
